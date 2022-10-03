@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.main {
+  background-image: url(/images/villa_Photo\ -\ 1.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.574);
+}
+
+.main-head {
+  background-color: #222222;
+  position: absolute;
+  color: white;
+  padding: 0 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.container {
+  width: 85%;
+}
+
+.flex {
+  display: flex;
+}
+
+
+/* Banner */
+.banner {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+}
+
+.banner-text {
+  width: 50%;
+  height: 100%;
+  padding: 0 8%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+}
+
+.banner-image {
+  width: 50%;
+  height: 100%;
+  background-image: url(/images/view_1\ -\ Photo\ \(1\).jpg);
+  background-size: cover;
+}
+
+/* services */
+
+.services {
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(232, 232, 232);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.service {
+
+  background-size: cover;
+  position: relative;
+  color: white;
+  overflow: hidden;
+}
+
+.one{
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.47.55\ PM.jpeg);
+}
+
+.two{
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.47.57\ PM.jpeg);
+}
+
+.three{
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.47.58\ PM.jpeg);
+}
+
+
+.service-wrapper {
+  background-color: rgba(14, 13, 13, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.service-number {
+  position: absolute;
+  overflow: hidden;
+  font-size: 80px;
+  bottom: -10%;
+  right: 2%;
+  margin: 0;
+  opacity: 0.3;
+}
+
+.servicetitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+/* Gallery */
+
+.gallery {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.picture1 {
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.47.54\ PM.jpeg);
+  background-size: cover;
+}
+.picture2 {
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.47.55\ PM.jpeg);
+  background-size: cover;
+}
+.picture3 {
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.47.56\ PM.jpeg);
+  background-size: cover;
+}
+.picture4 {
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.47.57\ PM.jpeg);
+  background-size: cover;
+}
+.picture5 {
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.47.58\ PM.jpeg);
+  background-size: cover;
+}
+.picture6 {
+  background-image: url(/images/villa_Photo\ -\ 3.jpg);
+  background-size: cover;
+}
+.picture7 {
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.47.59\ PM\ \(1\).jpeg);
+  background-size: cover;
+}
+.picture8 {
+  background-image: url(/images/WhatsApp\ Image\ 2022-09-27\ at\ 4.48.05\ PM.jpeg);
+  background-size: cover;
+}
+
+.pscale:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+
+/* Heading */
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.heading h2 {
+  font-size: 60px;
+  margin: 80px 0;
+}
+
+/* Popular work */
+
+.work {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+  padding: 0 100px;
+}
+
+.workimage {
+  width: 50%;
+  height: 100%;
+  background-image: url(/images/villa_Photo\ -\ 3.jpg);
+  background-size: cover;
+}
+
+.worktext {
+  width: 30%;
+
+  background-color: rgb(232, 232, 232);
+  border-radius: 5px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.worktext h2 {
+  font-size: 40px;
+}
+
+.worktext h3 {
+  font-size: 30px;
+}
+
+.worktext a{
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 180px;
+  margin-top: 10px;
+  background-color: #222222;
+  border-radius: 10px;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  margin-top: 100px;
+  color: white;
+  font-size: 14px;
+}
+
+.footer {
+  text-decoration: none;
+}
+
+.footer-logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-logo img {
+  width: 35%;
+}
+
+.footer-links {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.implink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  gap: 20px;
+}
+
+.footer-connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  gap: 20px;
+}
+
+.social {
+  margin: 20px 0;
+}
+
+.social a {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.copyright{
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.copyright a{
+  color: #222222;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 321px) and (max-width: 580px) {
+
+
+    .main-head{
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .banner {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+      }
+
+    .banner-text{
+        width: 100%;
+        align-items: baseline;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+      }
+
+    .banner-image{
+        display: none;
+    }
+
+      .servicetitle {
+        display: none
+      }
+
+      .service-wrapper{
+        font-size: 20px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+      }
+
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+        height: 100%;
+      }
+
+      .work {
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        position: relative;
+        padding: 0 10px;
+      }
+      
+      .worktext{
+        width: 60%;
+        font-size: 14px;
+      }
+      
+
+      .worktext h2 {
+        font-size: 10px;
+      }
+      
+      .worktext h3 {
+        font-size: 20px;
+      }
+
+      .footer {
+        width: 100%;
+        background-color: #222222;
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        color: white;
+        font-size: 15px;
+      }
+
+      .footer-logo {
+        width: 50%;
+        font-size: 5px;
+      }
+
+      .footer-links {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+}
+
+@media screen and (min-width: 581px) and (max-width: 768px) {
+
+    
+    .logo {
+        width: 40%;
+    }
+
+   
+    .banner-text h1 {
+        font-size: 30px;
+      }
+
+      .servicetitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+      }
+
+      .service-wrapper{
+        font-size: 20px;
+      }
+
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+        height: 100%;
+      }
+
+
+      
+
+      .work {
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        position: relative;
+        padding: 0 10px;
+      }
+      
+      .worktext{
+        width: 60%;
+        font-size: 14px;
+      }
+      
+
+      .worktext h2 {
+        font-size: 10px;
+      }
+      
+      .worktext h3 {
+        font-size: 20px;
+      }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    
+    
+    .logo {
+        width: 40%;
+    }
+
+   
+
+    .banner-text h1 {
+        font-size: 40px;
+      }
+
+      .servicetitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+      }
+
+      .service-wrapper{
+        font-size: 25px;
+      }
+
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        width: 100%;
+        height: 100%;
+      }
+
+      
+
+      .worktext h2 {
+        font-size: 30px;
+      }
+      
+      .worktext h3 {
+        font-size: 20px;
+      }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1495px) {
+
+
+    .worktext h2 {
+        font-size: 30px;
+      }
+      
+      .worktext h3 {
+        font-size: 20px;
+      }
+    
+}
