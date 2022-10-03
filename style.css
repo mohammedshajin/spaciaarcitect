@@ -393,18 +393,20 @@
       }
 
       .work {
-        height: 80vh;
         width: 100%;
         display: flex;
         justify-content: center;
         margin-top: 100px;
         position: relative;
         padding: 0 10px;
+        height: 120vh;
       }
       
       .worktext{
         width: 60%;
+        height: 100%;
         font-size: 14px;
+        height: fit-content;
       }
       
 
@@ -424,6 +426,7 @@
         height: 80vh;
         color: white;
         font-size: 15px;
+        
       }
 
       .footer-logo {
@@ -473,7 +476,7 @@
       
 
       .work {
-        height: 80vh;
+        height: 100vh;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -528,6 +531,10 @@
         gap: 20px;
         width: 100%;
         height: 100%;
+      }
+
+      .work{
+        height: 100vh;
       }
 
       
