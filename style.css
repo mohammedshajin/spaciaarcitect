@@ -408,6 +408,10 @@
         font-size: 14px;
         height: fit-content;
       }
+
+      .worktext a{
+        width: 100px;
+      }
       
 
       .worktext h2 {
