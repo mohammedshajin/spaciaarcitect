@@ -439,6 +439,11 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
       }
+
+      
+      
+
+      
 }
 
 @media screen and (min-width: 581px) and (max-width: 768px) {
@@ -498,9 +503,15 @@
       .worktext h3 {
         font-size: 20px;
       }
+
+     
+      
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+
 
     
     
@@ -549,6 +560,9 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1495px) {
+
+  
+
 
 
     .worktext h2 {
