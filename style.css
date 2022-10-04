@@ -363,7 +363,9 @@ body{
 
 @media screen and (min-width: 321px) and (max-width: 580px) {
 
-
+  #preloader{
+    background-size: 60%;
+  }
     .main-head{
         font-size: 20px;
     }
