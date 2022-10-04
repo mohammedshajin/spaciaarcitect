@@ -18,6 +18,8 @@
     ></script>
   </head>
   <body>
+
+    <div class="preloader" id="preloader"></div>
     <!-- Navbar -->
     <section class="main">
         <div class="main-wrapper">
@@ -202,5 +204,12 @@
     <section class="copyright"><div class="container"><p>© Spacia Builders 2022 | Designed and Developed by <a href="https://www.whalesin.com/">Whalesin</a></p></div></section>
 
     <script src="/assets/js/main.js"></script>
+
+    <script>
+      var loader = document.getElementById("preloader")
+      window.addEventListener("load", function(){
+        loader.style.display="none";
+      })
+    </script>
   </body>
 </html>
