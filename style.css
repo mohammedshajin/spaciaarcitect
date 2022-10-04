@@ -6,6 +6,11 @@
   overflow-x: hidden;
 }
 
+body{
+  background: url(/images/Spbackground.jpg);
+}
+
+
 .main {
   background-image: url(/images/villa_Photo\ -\ 1.jpg);
   background-size: cover;
@@ -81,7 +86,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: rgb(232, 232, 232);
+  background-color: rgba(232, 232, 232, 0.916);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -194,6 +199,10 @@
 .pscale:hover {
   transform: scale(1.1);
   z-index: 1;
+}
+
+.pscale{
+  background-position: center;
 }
 
 
